@@ -1,29 +1,9 @@
-REPOSITORY   TAG         IMAGE ID       CREATED         SIZE
-item-app     v1          9d34f6592e15   9 minutes ago   948MB
-node         12-alpine   da9807963ae7   16 months ago   89.4MB
-mariadb      10.5.8      dd3ab601101c   2 years ago     392MB
-Login Succeeded
-The push refers to repository [ghcr.io/khairulanas/item-app]
-b6b5d616c613: Preparing
-9f1f1ba3062c: Preparing
-9cd48ecb08a2: Preparing
-4d772e48367e: Preparing
-b078da4dfde3: Preparing
-20649f23472c: Preparing
-476197c298e4: Preparing
-708291ce0534: Preparing
-82da4502ad28: Preparing
-f3e76aaba7cc: Preparing
-cfec405a23bc: Preparing
-173621e7addd: Preparing
-20649f23472c: Waiting
-476197c298e4: Waiting
-f3e76aaba7cc: Waiting
-708291ce0534: Waiting
-82da4502ad28: Waiting
-cfec405a23bc: Waiting
-173621e7addd: Waiting
-4d772e48367e: Pushed
-9cd48ecb08a2: Pushed
-476197c298e4: Pushed
-b078da4dfde3: Pushed
+khairul_id28@cloudshell:~/a433-microservices (byneet-cloud)$ docker compose up -d > log.txt
+[+] Running 27/2
+ ✔ item-app 12 layers [⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿]      0B/0B      Pulled 1.9s  
+ ✔ item-db 13 layers [⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿]      0B/0B      Pulled 14.2s  
+[+] Running 4/4
+ ✔ Network a433-microservices_default       Created0.1s 
+ ✔ Volume "a433-microservices_app-db"       Created0.0s 
+ ✔ Container a433-microservices-item-db-1   Started2.2s  
+ ✔ Container a433-microservices-item-app-1  Started0.6s  

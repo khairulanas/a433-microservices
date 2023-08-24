@@ -3,3 +3,5 @@ Repository ini digunakan untuk kebutuhan kelas Belajar Membangun Arsitektur Micr
 
 Silakan clone dengan perintah berikut.<br>
 `git clone -b proyek-pertama https://github.com/dicodingacademy/a433-microservices.git`
+
+docker compose up -d > log.txt

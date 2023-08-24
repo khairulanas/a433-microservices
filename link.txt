@@ -1,0 +1,1 @@
+github packages: https://github.com/khairulanas/a433-microservices/pkgs/container/item-app
